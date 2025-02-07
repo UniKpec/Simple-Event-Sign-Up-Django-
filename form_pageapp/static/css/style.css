@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "IBM Plex Mono", serif;
+    background-color: #E2DAD6;
+}
+
+.header-website{
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav-main a{
+    display: flex;
+    justify-items: center;
+    align-self:center ;
+    text-decoration: none;
+    color: #F5EDED;
+    margin: 10px 0px;
+    padding: 8px 5px;
+
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6482AD;
+}
+
+.brand{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.contact{
+    outline: 1px solid transparent;
+    transition: all 0.5s ease-in;
+}
+.contact:hover{
+    outline: 1px solid #7FA1C3;
+    background-color: #7FA1C3;
+    border-radius: 10px;
+}
+
+.form-page  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: "IBM Plex Mono", serif;
+    margin-top: 80px;
+}
+.register-user-form{
+    background-color: #F5EDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 0px; 
+    box-sizing: border-box; 
+    border: 1px solid #F5EDED;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.name-surname.forms {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px; 
+}
+
+.name-surname.forms > div {
+    width: 48%; 
+}
+
+
+.phone-emial.forms {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; 
+}
+
+.phone-emial.forms > div {
+    width: 48%; 
+}
+
+
+.forms label {
+    font-weight: bold;
+    display: block;
+    color: #6482AD;
+    margin: 5px;
+}
+
+.forms input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #F5EDED;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "IBM Plex Mono", serif;
+}
+
+
+.button-sign-up{
+    border: 1px solid #6482AD;
+    background-color: #6482AD;
+    padding: 10px;
+    margin-top: 15px; 
+    border-radius: 10px;   
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    font-size: 16px;
+}
+
+.button-sign-up:hover{
+    background-color: #7FA1C3;
+    color: #F5EDED;
+}
+
+
+.user-confirm-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: #E2DAD6;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.user-confirm-page p{
+    padding: 20px 10px;
+}
